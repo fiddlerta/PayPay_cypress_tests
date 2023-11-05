@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "node ./bin/www",
     "unit-tests": "cypress run --component",
     "e2e-tests": "cypress run --spec 'cypress/e2e/successPaymentTest.cy.js'",
     "perf-tests": "cypress run --spec 'cypress/e2e/performanceTest.cy.js'"
