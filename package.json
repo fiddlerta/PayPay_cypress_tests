@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "unit-tests": "cypress run --component",
-    "e2e-tests": "cypress run --e2e"
+    "e2e-tests": "cypress run --spec 'cypress/e2e/successPaymentTest.cy.js'",
+    "perf-tests": "cypress run --spec 'cypress/e2e/performanceTest.cy.js'"
   },
   "devDependencies": {
     "@cypress-audit/lighthouse": "^1.4.2",
